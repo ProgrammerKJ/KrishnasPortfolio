@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Krishna",
+  title: "Hello! Im Krishna Joshi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "🚀 An aspiring Software Engineer with a passion for technology and a relentless curiosity about the ever-evolving world of software engineering. I bring a strong foundation in JavaScript, Python, PostgreSQL, HTML, and CSS, and I'm actively expanding my skills with Node.js, Express, React. I'm on an exhilarating journey to shape the digital future, eager to craft innovative solutions and make a positive impact. Join me in this exciting adventure as we build the future, one line of code at a time. 🌟"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1PT70QbjLLYnElR4swxA9Xga-kWvrkSD7/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Nepalimolly",
+  linkedin: "www.linkedin.com/in/krishnajoshi28",
+  gmail: "krishna.joshi28@yahoo.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +44,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My Current Skills",
+  subTitle: "STACKS IN MY ARSENAL & STACKS I AM CURRENTLY LEARNING!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ I possess hands-on experience in JavaScript, with a strong proficiency in utilizing DOM manipulations to create dynamic and interactive user interfaces"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ I possess proficient skills in Python and the Flask framework, with a specialization in route handling and database integration."
+    ),
+    emoji(
+      "⚡ I have developed a robust foundation in working with APIs, enabling me to independently create custom applications."
     )
   ],
 
@@ -72,10 +70,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -88,10 +86,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -100,22 +98,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +124,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Texas Tech University",
+      logo: require("./assets/images/ttu.png"),
+      subHeader:
+        "Bachelors of Management Information Systems - (Application Development Focus)",
+      duration: "Jan 2017 - Jan 2022",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Database Management",
+        "Software Development",
+        "Systems Analysis and Design",
+        "Web Application Development"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Springboard Bootcamp",
+      logo: require("./assets/images/spring.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "May 2023 - Nov 2023",
+      descBullets: [
+        "Completing 800+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 4 in-depth portfolio projects",
+        "Mastering skills in front-end and back-end web development, databases, and data structures and algorithims"
+      ]
     }
   ]
 };
@@ -150,7 +152,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +176,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Software Engineering Fellow",
+      company: "Springboard",
+      companylogo: require("./assets/images/spring.jpg"),
+      date: "Mau 2023 – Present",
+      desc: "Mastering skills in front-end and backend development, databases, and data structures and algorithims"
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer Intern",
+      company: "Innovative Solutions",
+      companylogo: require("./assets/images/software.png"),
+      date: "Oct 2022 – Dec 2022",
+      desc: "Worked remotley with an overseas technology company, deepening my knowledge of agile methodologies, OOPs programming methods, and testing and debugging code"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Hospitality Director",
+      company: "Chick-Fil-A",
+      companylogo: require("./assets/images/chick-fil-a.png"),
+      date: "Jul 2015 – Jan 2023",
+      desc: "Gained about 8 years of valuable customer service exerience as well as learned how to work with a top level executive team to help reach company goals"
     }
   ]
 };
@@ -206,35 +204,49 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "TOUR SOME OF THE PROJECTS THAT I HAVE COMPLETED BELOW!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/meal.png"),
+      projectName: "Meal Master",
+      projectDesc:
+        "I developed a versatile recipe and fitness application utilizing JavaScript, Python, SQL, HTML, CSS, and various frameworks. The app seamlessly connects with Spoonacular's API, granting users access to an extensive collection of recipes. Users can curate their meal plans, monitor their weight and fitness goals, and enjoy the convenience of a built-in shopping list for effortless grocery trips. This project showcases my proficiency in full-stack development and API integration, making it an attractive addition to my software engineering portfolio.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Video Tour",
+          url: "https://www.loom.com/share/Meal-Master-13-September-2023-42ba237a566e4e9d986c21034b25e190?sid=f46afdf3-7852-4b9e-92fa-ef97ba46f29a"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/forex.png"),
+      projectName: "Forex Currency Convertor",
+      projectDesc:
+        "I designed a dynamic Forex Currency Converter using Flask, Python, HTML, and CSS, enabling real-time currency conversion through API integration. This intuitive tool not only allows users to convert between any desired currencies but also provides immediate feedback by flagging incorrect currency symbols or input values. This project showcases my proficiency in web development and API integration, making it a valuable addition to my software engineering portfolio.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Video Tour",
+          url: "https://www.loom.com/share/Document-13-September-2023-77db7aa7913d4294b5df51b9c78852a8?sid=897a8232-b43b-44bd-b983-97a1a420ce23"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dj.png"),
+      projectName: "Database DJ",
+      projectDesc:
+        "I developed a robust Database DJ application using Flask, Python, SQLAlchemy, HTML, and CSS, offering a comprehensive set of functionalities for managing songs and playlists. With this application, users can effortlessly perform full CRUD (Create, Read, Update, Delete) operations for both songs and playlists. You can create and customize playlists by adding or removing songs, and explore a rich library of songs. This project showcases my proficiency in web development, database management, and user interface design, making it a compelling addition to my software engineering portfolio.",
+      footerLink: [
+        {
+          name: "Video Tour",
+          url: "https://www.loom.com/share/5968431689b34a84a5058cb93b45a8c4"
         }
       ]
     }
@@ -246,60 +258,48 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("More Projects"),
+  subtitle: "Just some more small projects I've worked on",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Boggle Game",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Experience wordplay at its best with the Boggle Game App. Crafted with JavaScript, HTML, and Python, this web-based game challenges your vocabulary skills. Connect adjacent letters on the dynamic game board to discover words, race against the clock, and track your high scores. With Flask powering the backend, challenge friends and family for word-finding supremacy. It's a showcase of DOM manipulation, timer implementation, and interactive scorekeeping, making it a valuable addition for developers seeking to enhance their skills.",
+      image: require("./assets/images/boggle.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Video Link",
+          url: "https://www.loom.com/share/Boggle-14-September-2023-9d2c7840887a44d39db4ac86a41695f0?sid=c523b088-8b0c-4f3b-9e19-bb5def32f3e7"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Jeopardy",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "I crafted an interactive Jeopardy game using JavaScript DOM manipulation, Ajax requests, HTML, and CSS. This captivating game leverages an API to fetch random categories and their corresponding questions, providing players with an engaging and challenging experience. This project exemplifies my expertise in front-end web development and API integration, making it a standout piece in my software engineering portfolio.",
+      image: require("./assets/images/jepo.jpg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Video Link",
+          url: "https://www.loom.com/share/Jeopardy-14-September-2023-0534e155f1b044bca0599916086642bf?sid=1caa7272-50f4-410c-bcdd-6bab8683889c"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Memory Game",
+      subtitle:
+        "I developed an engaging color-coded memory game that showcases my proficiency in frontend development and DOM manipulation. Leveraging HTML, JavaScript, and CSS, I created an intuitive user experience where players match color pairs, with matched pairs remaining on the board. This project demonstrates my ability to design captivating user interfaces that respond seamlessly to interactions. It also highlights my problem-solving skills in addressing gameplay intricacies and ensuring a fluid user experience. As a software enthusiast, I'm excited to apply these skills to real-world challenges and drive user-centric innovation.",
+      image: require("./assets/images/memory.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Visit Application",
+          url: "https://nepalimolly.github.io/JavaScript-Memory-Game/"
         }
       ]
     }
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -324,7 +324,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +343,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +356,24 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Reach out to me for anything!",
+  number: "806-702-9627",
+  email_address: "krishna.joshi28@yahoo.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

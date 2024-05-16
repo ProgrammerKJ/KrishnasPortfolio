@@ -26,16 +26,16 @@ const greeting = {
     "🚀 An aspiring Software Engineer with a passion for technology and a relentless curiosity about the ever-evolving world of software engineering. I bring a strong foundation in JavaScript, Python, PostgreSQL, HTML, and CSS, and I'm actively expanding my skills with Node.js, Express, React. I'm on an exhilarating journey to shape the digital future, eager to craft innovative solutions and make a positive impact. Join me in this exciting adventure as we build the future, one line of code at a time. 🌟"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1PT70QbjLLYnElR4swxA9Xga-kWvrkSD7/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/10AGCHf8YD8skNDnBXp0Gl6me3CnBz2p4/edit?usp=sharing&ouid=110621110171723706693&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Nepalimolly",
+  github: "https://github.com/ProgrammerKJ",
   linkedin: "www.linkedin.com/in/krishnajoshi28",
-  gmail: "krishna.joshi28@yahoo.com",
+  email: "krishna.joshi28@yahoo.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,7 +48,7 @@ const skillsSection = {
   subTitle: "STACKS IN MY ARSENAL & STACKS I AM CURRENTLY LEARNING!",
   skills: [
     emoji(
-      "⚡ I possess hands-on experience in JavaScript, with a strong proficiency in utilizing DOM manipulations to create dynamic and interactive user interfaces"
+      "⚡ I possess hands-on experience in JavaScript, React, and NodeJS with a strong proficiency in utilizing DOM manipulations to create dynamic and interactive user interfaces"
     ),
     emoji(
       "⚡ I possess proficient skills in Python and the Flask framework, with a specialization in route handling and database integration."
@@ -139,7 +139,7 @@ const educationInfo = {
     {
       schoolName: "Springboard Bootcamp",
       logo: require("./assets/images/spring.jpg"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Software Engineering Certificate",
       duration: "May 2023 - Nov 2023",
       descBullets: [
         "Completing 800+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 4 in-depth portfolio projects",
@@ -160,11 +160,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -181,13 +181,6 @@ const workExperiences = {
       companylogo: require("./assets/images/spring.jpg"),
       date: "Mau 2023 – Present",
       desc: "Mastering skills in front-end and backend development, databases, and data structures and algorithims"
-    },
-    {
-      role: "Software Developer Intern",
-      company: "Innovative Solutions",
-      companylogo: require("./assets/images/software.png"),
-      date: "Oct 2022 – Dec 2022",
-      desc: "Worked remotley with an overseas technology company, deepening my knowledge of agile methodologies, OOPs programming methods, and testing and debugging code"
     },
     {
       role: "Hospitality Director",
@@ -220,8 +213,8 @@ const bigProjects = {
         "I developed a versatile recipe and fitness application utilizing JavaScript, Python, SQL, HTML, CSS, and various frameworks. The app seamlessly connects with Spoonacular's API, granting users access to an extensive collection of recipes. Users can curate their meal plans, monitor their weight and fitness goals, and enjoy the convenience of a built-in shopping list for effortless grocery trips. This project showcases my proficiency in full-stack development and API integration, making it an attractive addition to my software engineering portfolio.",
       footerLink: [
         {
-          name: "Video Tour",
-          url: "https://www.loom.com/share/Meal-Master-13-September-2023-42ba237a566e4e9d986c21034b25e190?sid=f46afdf3-7852-4b9e-92fa-ef97ba46f29a"
+          name: "Visit Site",
+          url: "https://meal-masters.onrender.com"
         }
         //  you can add extra buttons here.
       ]
